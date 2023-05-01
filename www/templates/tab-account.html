@@ -1,0 +1,65 @@
+<ion-view view-title="BuddyDoe">
+<ion-content overflow-scroll='false' delegate-handle="userDetailContent" on-scroll="onUserDetailContentScroll()" n-swipe-right="goBack()" on-swipe-left="goForward()" header-shrink scroll-event-interval="5">
+<div class="about-header">
+	<ion-slide-box auto-play="false" show-pager="false">
+	<ion-slide data-ng-repeat="i in ['people','food','sports']">
+	<div class="profile-media">
+		<div class="profile-details">
+			<div class="hero profile" style="background-image: url('img/profile/quentin.jpg');">
+			</div>
+		</div>
+	</div>
+</ion-slide>
+</ion-slide-box>
+</div>
+<div class="card profile">
+	<h3><strong>Quentin</strong>, 25</h3>
+	<p>Développeur chez BuddyDoe<br/>
+		Actif depuis 6 jours.
+	</p>
+	<ion-item style="margin-top: -30px;">
+		<h4>4 intérêts</h4>
+		<ion-scroll direction="x" zooming="false" delegate-handle="horizontal{{brand.count}}" horizontal-scroll-fix="mainScroll">
+			<div item="app" style='display: inline-block; margin: 10px;'>
+				<a>
+					<div class="hscroller-card" >
+						<img class="hscroller-img" src="img/interets/bienv.png">
+						<div class="hscroller-label"><h2 style="color: #FFF;">test1</h2></div>
+					</div>
+				</a>
+			</div>
+			<div item="app" style='display: inline-block; margin: 10px;'>
+				<a>
+					<div class="hscroller-card" >
+						<img class="hscroller-img" src="img/interets/capt.png">
+						<div class="hscroller-label"><h2 style="color: #FFF;">test2</h2></div>
+					</div>
+				</a>
+			</div>
+			<div item="app" style='display: inline-block; margin: 10px;'>
+				<a>
+					<div class="hscroller-card" >
+						<img class="hscroller-img" src="img/interets/jurPark.png">
+						<div class="hscroller-label"><h2 style="color: #FFF;">test3</h2></div>
+					</div>
+				</a>
+			</div>
+			<div item="app" style='display: inline-block; margin: 10px;'>
+				<a>
+					<div class="hscroller-card" >
+						<img class="hscroller-img" src="img/interets/maman.png">
+						<div class="hscroller-label"><h2 style="color: #FFF;">test4</h2></div>
+					</div>
+				</a>
+			</div>
+		</ion-scroll>
+	</ion-item>
+	 <h4 class="header-map">Vous vous situez</h4>
+	 <div class="card stable-bg ink ink-dark">
+        <div class="item item-avatar item-text-wrap map" style="background-image: url('img/map.png');"></div>
+    </div>
+    <p>Rue jacquard, 59280 Armentières</p>
+</div>
+</ion-content>
+A
+</ion-view>

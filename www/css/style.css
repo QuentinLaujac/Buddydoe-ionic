@@ -1,0 +1,234 @@
+/* General
+==================================*/
+h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+}
+
+
+/* Utilities
+==================================*/
+.title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+.bar .button, .bar .button.button-flat, .bar .button.button-large, .button, .button.button-flat, .button.button-large {
+    box-shadow: none;
+}
+
+.bar.bar-header .button+.title {
+    text-align: center;
+    line-height: 46px;
+    position: absolute;
+    left: 0;
+}
+
+/* Menu
+==================================*/
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height: 88px;
+    width: 88px;
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+
+
+/* Login
+==================================*/
+.app-icon {
+    background-color: #fff;
+    background: url('../img/crown.jpg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 125px;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.social-login {
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* Card
+================================*/
+div.txt-profil-buddy > span{
+   font-weight: 500;
+   font-size: 20px;
+
+}
+
+div.txt-profil-buddy > span.age{
+    font-weight: 100;
+    font-size: 20px;
+
+}
+div.txt-profil-buddy{
+ position: absolute;
+ top: 77%;
+ left: 5%;
+ color: white;
+ font-weight: 100;
+ font-size: 15px;
+}
+
+/* Message
+==============================*/
+.mess{
+    margin-top: -5px;
+}
+
+.hero.profile{
+    height: 380px;
+}
+
+.card.profile{
+    width: 100%;
+    margin-left: 0px;
+}
+
+div.card.profile > h3{
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+
+div.card.profile > p{
+    padding: 10px;
+}
+
+div.card.profile > h3 > strong{
+    font-weight: 400;
+}
+
+.map{
+    height: 240px;
+}
+
+.header-map{
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 12px;
+    padding: 10px; 
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+
+/* Image scrollable
+==================================*/
+
+div.hscroller {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding-left: 10px;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+}
+
+div.hscroller::-webkit-scrollbar {
+    display: none; 
+}
+
+div.hscroller-card {
+  width: 120px;
+  height: 160px;
+  display: inline-block;
+  background-color: #444;
+  vertical-align: middle;
+  margin: 0 2px; 
+}
+
+div.hscroller-card img {
+    height: 100%;
+    width: 100%;
+}
+
+div.hscroller-card div.hscroller-label {
+    font-family: "Helvetica Neue", "Roboto", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;  
+    padding: 0 0.5em;
+    color: #fff;
+    margin: 0;
+    word-wrap: break-word;
+    white-space: normal;
+    height: calc($hscroller-card-height - $hscroller-image-height); 
+}
+div.hscroller-card:last-child {
+    margin-right: 10px; 
+}
+
+
+/* Event
+======================================*/
+.back-event{
+    filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(pixelRadius=2)";
+}
+
+
+.header-event{
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 12px;
+    padding: 10px; 
+    margin-top: -30px;
+    margin-bottom: -5px;
+}
+
+.event-name{
+    color:#FFFFFF;
+    font-weight: 300;
+}
+
+.hero h4 {
+   color:#FFFFFF;
+}
+
+.event-buddy-name{
+    color:#FFFFFF;
+    font-weight: 400;
+}

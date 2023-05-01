@@ -1,0 +1,56 @@
+<ion-view view-title="BuddyDoe">
+    <ion-content ng-class="{expanded:isExpanded}" class="animate-fade-slide-in" on-swipe-right="goBack()" on-swipe-left="goForward()">
+        <div class="item card-item">
+            <div ui-sref="tab.profileEvent({idprofile: '0'})" class="card stable-bg ink ink-dark">
+                <div class="item item-avatar item-text-wrap">
+                    <span class="avatar" style="background-image: url('img/profile/shina.png');"></span>
+                    <strong>Shina 27</strong>, a créé un événement <strong>Bowling à Lomme </strong> ...
+                    <a class="image"><img src="img/evenement/bowl.jpg">
+                    </a>
+                    <div class="card-footer text-right">
+                        <i class="icon ion-location positive"></i> 20Km
+                        <i class="icon ion-android-contacts assertive"></i> 3
+                        <div class="pull-left">
+                            <i class="icon ion-clock"></i> 3 hrs restantes
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item card-item">
+            <div ui-sref="tab.profileEvent({idprofile: '1'})" class="card stable-bg ink ink-dark">
+                <div class="item item-avatar item-text-wrap">
+                    <span class="avatar" style="background-image: url('img/evenement/logo.png');"></span>
+                    <strong>Kinepolis Lomme</strong>, a créé un événement <strong>Avant première pour "Captain America : Civil War"</strong> ...
+                    <a class="image"><img src="img/evenement/kinepolis.jpg">
+                    </a>
+                    <div class="card-footer text-right">
+                        <i class="icon ion-location positive"></i> 7Km
+                        <i class="icon ion-android-contacts assertive"></i> 20
+                        <div class="pull-left">
+                            <i class="icon ion-clock"></i> 5 hrs restantes
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item card-item">
+            <div ui-sref="tab.profileEvent({idprofile: '2'})" class="card stable-bg ink ink-dark">
+                <div class="item item-avatar item-text-wrap">
+                    <span class="avatar" style="background-image: url('img/profile/max.png');"></span>
+                    <strong>Max 31</strong>, a créé un événement <strong> Match Losc vs OM au stade Pierre Mauroy</strong> ...
+                    <a class="image"><img src="img/evenement/match.jpg">
+                    </a>
+                    <div class="card-footer text-right">
+                        <i class="icon ion-location positive"></i> 13Km
+                        <i class="icon ion-android-contacts assertive"></i> 2
+                        <div class="pull-left">
+                            <i class="icon ion-clock"></i> 13 hrs restantes
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+

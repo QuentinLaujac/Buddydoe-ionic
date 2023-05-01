@@ -1,0 +1,44 @@
+<ion-view view-title="BuddyDoe">
+    <ion-content ng-class="{expanded:$scope.isExpanded}" on-swipe-right="goBack()" on-swipe-left="goForward()">
+        <div class="hero back-event slide-up" ng-style="{'background-image':'url({{event.imgEvent}})'}">
+            <div class="content">
+                <div class="avatar" ng-style="{'background-image':'url({{event.imgProfile}})'}"></div>
+                <h3><a class="light event-buddy-name">{{event.nom}}</a></h3>
+                <h4 class="event-name">{{event.nameEvent}}</h4>
+            </div>
+        </div>
+        <div class="card profile">
+        <h3><strong>Divertissement</strong>,</h3>
+		<p>{{event.desc}}<br/><br/>
+			{{event.resume}}
+		</p>
+		 <h4 class="header-event content padding double-padding-x">Participent à l'événement</h4>
+        <div class="list animate-fade-slide-in-right">
+            <a ui-sref="tab.profileBuddyEvent({idprofile: '1'})" class="item item-avatar item-icon-right">
+                <span class="avatar mess" style="background-image: url('img/profile/femme-brune.png');"></span>
+                <h2>Agathe</h2>
+                <p>Participe à l'événement</p>
+                <i class="icon ion-chevron-right muted"></i>
+            </a>
+            <a ui-sref="tab.profileBuddyEvent({idprofile: '4'})" class="item item-avatar item-icon-right">
+                <span class="avatar mess" style="background-image: url('img/profile/john.png');"></span>
+                <h2>John</h2>
+                <p>Participe à l'événement</p>
+                <i class="icon ion-chevron-right muted"></i>
+            </a>
+            <a ui-sref="tab.profileBuddyEvent({idprofile: '5'})" class="item item-avatar item-icon-right">
+               <span class="avatar mess" style="background-image: url('img/profile/max.png');"></span>
+                <h2>Max</h2>
+                <p>Participe à l'événement</p>
+                <i class="icon ion-chevron-right muted"></i>
+            </a>
+        </div>
+        <h4 class="header-map">L'événement ce situe à 10km</h4>
+		 <div class="card">
+	        <div class="map" style="background-image: url('img/map.png');"></div>
+	    </div>
+	    <p>Rue jacquard, 59280 Armentières</p>
+		</div>
+       
+    </ion-content>
+</ion-view>
