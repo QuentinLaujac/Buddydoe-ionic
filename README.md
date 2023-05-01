@@ -27,25 +27,3 @@ This project is no longer actively maintained.
 ## Buddydoe Ambassador Program
 
 Frequent guests who become familiar with their hotel and local area can become Buddydoe Ambassadors. These ambassadors can create and plan activities for other guests and become part of Buddydoe's loyalty program.
-
-## Technology Used
-
-Buddydoe was built using:
-
-- React Native for mobile development
-- Firebase for backend services
-- Google Maps API for location services
-
-## Contributions
-
-Contributions to Buddydoe are welcome and appreciated! To contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and commit them with clear and concise commit messages.
-4. Push your changes to your forked repository.
-5. Create a pull request to have your changes reviewed and merged.
-
-## Contact Us
-
-If you have any questions, comments, or concerns about Buddydoe, please don't hesitate to contact us at [contact@buddydoe.com](mailto:contact@buddydoe.com).
