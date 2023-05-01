@@ -1,6 +1,6 @@
 # Buddydoe ionic
 
-Its a ionic POC project of:
+Its an ionic POC project of:
 
 Buddydoe is a platform that allows hotel guests to connect with each other and plan activities together during their stay. With Buddydoe, guests can easily find and join activities such as going to the movies, bowling, or watching a football game with other guests at their hotel.
 
